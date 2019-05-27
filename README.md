@@ -1,6 +1,12 @@
 # ticket
 This is a Test Driven Development approach to a Concert Ticket purchasing system in Laravel 5.8
 
+### Prerequisites
+
+```
+PHP >=7.1
+```
+
 ### Installation
 
 Clone or fork the repository on Github, or download a zip file. Once you have done so you will need to use composer to install all of the dependancies that comes with Laravel. You can do this with the following command, as long as you have sufficient permissions.
@@ -35,6 +41,18 @@ Once the settings have been saved you can run the migrations with the following 
 php artisan migrate
 
 php artisan db:seed
+```
+
+#### Mail
+The project uses mailtrap.io for email demos. Add the following to the .env file
+
+```
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=
+MAIL_PASSWORD=
+
 ```
 
 #### Stripe Connect
