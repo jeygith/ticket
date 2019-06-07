@@ -15,7 +15,8 @@
     "kitetail/zttp": "^0.4.0",
     "laravel/framework": "5.8.*",
     "laravel/tinker": "^1.0",
-    "stripe/stripe-php": "^6.34"
+    "stripe/stripe-php": "^6.34",
+    "zondicons/blade-bridge": "^0.1.5"
   },
   "require-dev": {
     "barryvdh/laravel-ide-helper": "^2.6.2",

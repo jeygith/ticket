@@ -21,6 +21,13 @@
         "sass": "^1.15.2",
         "sass-loader": "^7.1.0",
         "vue": "^2.5.17",
-        "vue-template-compiler": "^2.6.10"
+        "vue-template-compiler": "^2.6.10",
+        "bootstrap-sass": "^3.3.7",
+        "gulp": "^3.9.1"
+    },
+    "dependencies": {
+        "es6-promise": "^4.0.5",
+        "normalize.css": "^5.0.0",
+        "suitcss-base": "^2.0.0"
     }
 }

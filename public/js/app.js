@@ -1888,8 +1888,8 @@ __webpack_require__.r(__webpack_exports__);
         ticket_quantity: this.quantity,
         payment_token: token.id
       }).then(function (response) {
-        window.location = "/orders/".concat(response.data.confirmation_number);
         console.log('Charge succeeded.');
+        window.location = "/orders/".concat(response.data.confirmation_number);
       })["catch"](function (response) {
         _this.processing = false;
       });
@@ -17088,7 +17088,7 @@ return jQuery;
       genTag = '[object GeneratorFunction]',
       mapTag = '[object Map]',
       numberTag = '[object Number]',
-      nullTag = '[object NullFile]',
+      nullTag = '[object Null]',
       objectTag = '[object Object]',
       promiseTag = '[object Promise]',
       proxyTag = '[object Proxy]',
@@ -49444,6 +49444,17 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./resources/assets/less/app.less":
+/*!****************************************!*\
+  !*** ./resources/assets/less/app.less ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -49693,26 +49704,15 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/sass/app.scss":
-/*!*********************************!*\
-  !*** ./resources/sass/app.scss ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/*!********************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/assets/less/app.less ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /media/data/projects/www/ticketbeast/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /media/data/projects/www/ticketbeast/resources/sass/app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! /media/data/projects/www/ticketbeast/resources/assets/less/app.less */"./resources/assets/less/app.less");
 
 
 /***/ })

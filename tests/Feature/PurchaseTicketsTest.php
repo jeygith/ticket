@@ -42,6 +42,7 @@ class PurchaseTicketsTest extends TestCase
 
     private function assertResponseStatus($status)
     {
+
         $this->response->assertStatus($status);
     }
 
