@@ -70,9 +70,9 @@
                     <div class="border-t">
                         <div class="card-section">
                             <ticket-checkout
-                            :concert-id="{{ $concert->id }}"
-                            concert-title="{{ $concert->title }}"
-                            :price="{{ $concert->ticket_price }}"
+                                    :concert-id="{{ $concert->id }}"
+                                    concert-title="{{ $concert->title }}"
+                                    :price="{{ $concert->ticket_price }}"
                             ></ticket-checkout>
                         </div>
                     </div>

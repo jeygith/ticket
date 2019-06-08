@@ -32,7 +32,7 @@ class Order extends Model
         ]);
 
 
-      //  $order->tickets()->saveMany($tickets);
+        //  $order->tickets()->saveMany($tickets);
 
         $tickets->each->claimFor($order);
 
@@ -85,6 +85,17 @@ class Order extends Model
                 return ['code' => $ticket->code];
             })->all(),
         ];
+    }
+
+
+    public function getFormattedAmountAttribute()
+    {
+        return number_format($this->amount / 100, 2);
+    }
+
+    public function getFormattedDateAttribute()
+    {
+        return $this->created_at->format('F d Y, g:ia');
     }
 
 }
